@@ -1,0 +1,129 @@
+* {
+  mat-card-title {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  mat-card-subtitle {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  mat-tab-group {
+    margin: 2rem;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #111;
+}
+
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: #19976a;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_title {
+  margin-left: 2rem !important;
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px !important;
+  color: #fff !important;
+}
+
+.header_btn {
+  margin-right: 2rem !important;
+  background-color: #125c42 !important;
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px !important;
+  color: #fff !important;
+}
+
+.todo_form_card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo_form_title {
+  margin-top: 1rem !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px !important;
+  color: #fff !important;
+}
+
+.todo_form_actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.todo_form_success_btn {
+  background-color: #125c42 !important;
+}
+
+.todo_card_done_btn {
+  margin-bottom: 1rem;
+}
+
+.todo_card_delete_btn {
+  background-color: #a11707 !important;
+  margin-bottom: 1rem;
+}
+
+.todo_form_input {
+  width: 90% !important;
+}
+
+.todo_card {
+  width: 80%;
+  margin: 1rem auto;
+  background-color: #19976a !important;
+  border-radius: 1.8rem !important;
+  padding-left: 0.4rem;
+  padding-top: 0.4rem;
+}
+
+.todo_card_title {
+  font-size: 25px !important;
+  color: #fff !important;
+}
+
+.todo_card_subtitle {
+  margin-top: 2rem !important;
+  font-size: 18px !important;
+}
+
+.check_btn {
+  width: 50px !important;
+  margin-bottom: 1rem !important;
+}
+
+.warn_message {
+  margin-top: 1.5rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px !important;
+  color: #fff !important;
+}
